@@ -1,31 +1,36 @@
 <div align="center">
 
-# CC-Template-Repository
-
-A ... component that does x.
+# NFT Image Display
 
 [![Build Status](https://github.com/Core-Team-META/CC-Template-Repository/workflows/CI/badge.svg)](https://github.com/Core-Team-META/CC-Template-Repository/actions/workflows/ci.yml?query=workflow%3ACI%29)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/Core-Team-META/CC-Template-Repository?style=plastic)
 
-![TitleCard](/Screenshots/REPLACE_ME.png)
+![Preview](/Screenshots/Main.png)
 
 </div>
 
+## Finding the Component
+
+This component can be found under the **CoreAcademy** account on Community Content.
+
 ## Overview
 
-Description
+The NFT Image Display component will display a UI image with a loading animation while it fetches the NFT to be displayed. You can add as many of the NFT Images as you like, as the component will auto-set them when fetching a collection.
 
-## Setup
+There is an option to set just 1 specific NFT if needed.
 
-Setup
+## How to use
 
-## Credits
+The root of the template contains 2 custom properties.
 
-- List
-- of
-- people
+- **ContractAddress**
+  This is the collection of NFTs you want to pull from.
 
-## How to use this Template
+- **TokenID**
+  If set, then only this NFT image will be displayed from the collection set.
 
-- Replace every mention of `CC-Template-Repository` with your new repository name.
-- Replace every mention of `REPLACE_ME` with the correct values.
+## Learn More
+
+Another idea is to create a slider show of NFTs that the player can cycle through.
+
+[https://docs.coregames.com/tutorials/slideshow/](https://docs.coregames.com/tutorials/slideshow/)
