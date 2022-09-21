@@ -24,9 +24,11 @@ There is an option to set just 1 specific NFT if needed.
 The root of the template contains 2 custom properties.
 
 - **ContractAddress**
+
   This is the collection of NFTs you want to pull from.
 
 - **TokenID**
+
   If set, then only this NFT image will be displayed from the collection set.
 
 ## Learn More
